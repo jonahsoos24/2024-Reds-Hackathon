@@ -499,8 +499,8 @@ all_pred %>%
   pivot_longer(cols = c(sp_perc_hand_xwoba_diff_adj:sp_perc_num_pitches), 
                names_to = "var", values_to = "Percentile") -> plot_df
 
-img <- readJPEG("C:/Users/alexo/OneDrive - Syracuse University/Documents/Sabermetrics Club/Case Competitions/2024 Hackathon/robert_suarez.jpg",
-                native = T)
+# Import Photo of Player
+img <- readJPEG(, native = T)
 
 
 plot_df$var <- c("xwOBA Hand Diff.", "Velocity Slope", "Pitches / Batter",
@@ -572,8 +572,8 @@ all_pred %>%
                names_to = "var", values_to = "Percentile") -> plot_df
 
 
-img <- readJPEG("C:/Users/alexo/OneDrive - Syracuse University/Documents/Sabermetrics Club/Case Competitions/2024 Hackathon/graham_ashcraft.jpg",
-                native = T)
+# Import Photo of Player
+img <- readJPEG(, native = T)
 
 
 plot_df$var <- c("xwOBA Hand Diff.", "Velocity Slope", "Pitches / Batter",
