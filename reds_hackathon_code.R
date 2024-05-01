@@ -14,7 +14,7 @@ library(jpeg)
 library(patchwork)
 
 # set working directory
-# setwd("C:/Users/alexo/OneDrive - Syracuse University/Documents/Sabermetrics Club/Case Competitions/2024 Hackathon")
+# setwd()
 
 # read data
 read_csv("savant_pitch_level.csv") -> pitches
